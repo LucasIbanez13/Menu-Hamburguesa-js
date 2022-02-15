@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icono-menu {
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+}
+.icono-menu svg{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+.cont-menu {
+    background-color: rgb(42,42,42);
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
